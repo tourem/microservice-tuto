@@ -1,0 +1,16 @@
+lance details service sur un autre port (genere jar avec un port, demare, puis modifie github en mettant un autre port et demarre une au
+tre instance)
+
+via gatwae : http://localhost:8765/api/products-service/api/products/details/14a
+
+products : http://localhost:8080/api/products/details/14
+
+details : http://localhost:8081/api/details/14
+
+Eureka : http://127.0.0.1:8761/
+
+Exemples de filter zuul : https://exampledriven.wordpress.com/2016/07/06/spring-cloud-zuul-example/
+
+zipkin : http://localhost:9411/zipkin/
+
+pricing : http://localhost:8765/api/pricing-service/api/pricing
